@@ -27,10 +27,7 @@ p{
   align-items: center;
 }
 
-.header h1:hover {
-  font-size: 4.5rem;
-  transition: 0.2s ease-out;
-}
+
 
 .details-cont {
   width: 100%;
@@ -42,8 +39,8 @@ p{
 }
 
 .details {
-  background-color: #2b00d0;
-  color: white;
+  background-color: #fefdff;
+  color: rgb(60, 31, 223);
   border-radius: 12px;
   min-height: 47vh;
   padding: 1.2rem;
@@ -53,7 +50,7 @@ p{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  box-shadow: 2px 2px 4px #2b00d0;
+  box-shadow: 2px 2px 4px #f3f3f3;
 }
 
 input {
@@ -87,6 +84,7 @@ label {
   margin-left: auto;
   margin-right: auto;
   box-shadow: 12px 12px 9px grey;
+  border-radius: 100;
   background-image: url("https://www.infoplease.com/sites/infoplease.com/files/styles/large/public/2022-02/quiz-time.jpg?itok=mqTan5N-");
 }
 .d-left:hover {
@@ -144,7 +142,7 @@ label {
 }
 
 .text-info  :hover{
-background-color: #2b00d0;
+background-color: #f6f6f8;
 }
 .question{
   margin-left: 200px;
@@ -175,12 +173,17 @@ padding-right: 200px;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(24, 22, 22);
   border-radius: 4px;
   box-sizing: border-box;
   font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size :larger;
+  background-color: aqua;
   
+}
+.front-page{
+  background-color: rgb(119, 0, 255);
+  width: 100%;
 }
 .btn-cont{
   width: 100%;
@@ -200,7 +203,7 @@ padding-right: 200px;
 }
 
 .result-box{
-  background: #4337ff;
+  background: #faf9fc;
   margin: 45px 0 0 52px;
   display: flex;
   padding: 20px;
@@ -224,90 +227,4 @@ padding-right: 200px;
 .red{
   color: red;
 }
-
-@media screen and (max-width: 1235px) {
-  .details-cont {
-    flex-direction: column;
-    justify-content: center;
-  }
-  .d-left {
-    width: 65%;
-  }
-  .details {
-    width: 70%;
-  }
-}
-
-@media screen and (max-width:918px) {
-  .question{
-    margin-left: 100px;
-  }
-}
-
-@media screen and (max-width: 761px) {
-  .details {
-    margin: 0px;
-    width: 90%;
-  }
-  .d-left {
-    width: 80%;
-  }
-  .result-box{
-    margin: 45px 0 0 0;
-  }
-}
-
-@media screen and (max-width:601px) {
-  .result-box{
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 585px) {
-  .input_cont {
-    flex-direction: column;
-  }
-  .input_cont input {
-    width: 350px;
-  }
-}
-
-@media screen and (max-width: 494px) {
-  .header {
-    justify-content: center;
-  }
-  .header h1 {
-    font-size: 5rem;
-  }
-  .header h1:hover {
-    transition: none;
-  }
-  .d-left {
-    font-size: 3rem;
-  }
-  .question{
-    margin-left: 2px;
-  }
-  input[type="radio"]{
-    margin-left: -91px;
-  }
-}
-@media screen and (max-width: 446px) {
-  .input_cont input {
-    max-width: 230px;
-  }
-}
-@media screen and (max-width: 321px) {
-  .header h1 {
-    font-size: 2.9rem;
-  }
-}
-
-@media screen and (max-width: 281px) {
-  .input_cont input {
-    width: 150px;
-  }
-  .d-left {
-    font-size: 1.9rem;
-  }
-}
+ 
